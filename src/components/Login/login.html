@@ -1,9 +1,9 @@
 <div class="login-box">
       <div class="login-logo">
-        <a href="">GROOVE</a>
+        <a href="">sales pause</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
-        <p class="login-box-msg">ログインして下さい。</p>
+        <p class="login-box-msg">Please Login</p>
         <form v-on:submit.prevent="login_method(email, password)">
           <!-- メール -->
           <div class="form-group has-feedback">
@@ -22,7 +22,7 @@
             <div class="col-xs-4">
             </div><!-- /.col -->
             <div class="col-xs-4">
-              <button type="submit" class="btn btn-primary btn-block btn-flat">ログイン</button>
+              <button type="submit" class="btn btn-primary btn-block btn-flat" v-link="{ path: '/my_page' }">Log In</button>
             </div><!-- /.col -->
             <div class="col-xs-4">
             </div><!-- /.col -->

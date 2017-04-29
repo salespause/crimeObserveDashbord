@@ -7,8 +7,6 @@ Vue.use(Resource);
 export default {
   vuex: {
     actions: {
-      login,
-      getMyInfo
     }
   },
   data: function () {
